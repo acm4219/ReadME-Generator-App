@@ -25,11 +25,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please provide license link",
-    name: "license",
-  },
-  {
-    type: "input",
     message: "Who contributed to the project?",
     name: "contributing",
   },
@@ -42,6 +37,11 @@ const questions = [
     type: "input",
     message: "What are some questions you need to ask?",
     name: "questions",
+  },
+  {
+    type: "input",
+    message: "Please provide license link",
+    name: "license",
   },
 ];
 
