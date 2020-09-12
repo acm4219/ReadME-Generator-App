@@ -25,7 +25,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "License?",
+    message: "Please provide license link",
     name: "license",
   },
   {
