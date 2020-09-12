@@ -46,9 +46,6 @@ const questions = [
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {
-
-// }
 inquirer.prompt(questions).then(function (data) {
   fs.writeFile("README.md", generate(data), function (err) {
     if (err) {
