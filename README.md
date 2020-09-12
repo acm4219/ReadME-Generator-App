@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Read Me Generator App
 
-You can use the [editor on GitHub](https://github.com/acm4219/ReadME-Generator-App/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/acm4219/ReadME-Generator-App/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Description
+This app is used as a CLI for Node.js to craft a README.md File to describe a project or use for a markdown file.
+## Usage
+When accessing it in your terminal you answer the questions and add your license button to the end of the prompts. From there the information that you entered is transcribed to the README file and set up as a fully functional file. 
+## Challenges
+A big challenge for this was figuring out how to take the prompt answers from the inspect.json to make a README file. Luckily I was able to work with some classmates to figure out how that process came together and I was able to overcome it.
+## Contributors 
+Myself and various classmates and the UofM Bootcamp program for the base code
+## License
+UofM Bootcamp
